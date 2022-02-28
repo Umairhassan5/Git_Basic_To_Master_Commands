@@ -53,3 +53,16 @@
 **Delete the tag**
 
 - git tag -d "Tag Name" or git tag -d (To delete all tags)
+
+**Logs of all commits**
+
+- git log
+
+**Stash the changes**
+
+- git stash list ( Will show the all stash commits)
+- git stash (All changes you done will be deleted or stashed)
+
+**Stash changes revert**
+
+- git stash pop (If you unintentially remove the changes it will revert the stash command)
