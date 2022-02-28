@@ -41,3 +41,15 @@
 **Merge the branch with another branch**
 
 - git merge master (You should be in the current branch then run the command)
+
+**Create the tag**
+
+- git tag "Tag Name"
+
+**List of all tags**
+
+- git tag --list
+
+**Delete the tag**
+
+- git tag -d "Tag Name" or git tag -d (To delete all tags)
