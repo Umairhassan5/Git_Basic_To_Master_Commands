@@ -1,9 +1,15 @@
 **Git Commands**
 
+**Git Clone**
+
+After creating new repository on git you can clone the repo with this command
+
+- `git clone 'https://github.com/exampleRepo'`
+
 **Create simple text file or direcory**
 
 - `mkdir test` (Direcory)
-- `touch demo.txt`
+- `touch readme.md` (File)
 
 **Rename the file or direcotry**
 
@@ -80,3 +86,15 @@
 **Push the changes you have commited**
 
 - `git push origin 'branch name'`
+
+**Check changes you have done**
+
+- `git diff` (This will only work before the changes has been staged means commited)
+
+**Fetch the branch names created by other teamates**
+
+- `git fetch -a`
+
+**Pull from the branch**
+
+- `git pull origin 'branch name'` (This command will update your project with different changes done by other teammates on same and from different branches)
