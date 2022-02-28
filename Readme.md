@@ -1,6 +1,6 @@
-**_Git Commands_**
+**Git Commands**
 
-**_Create simple text file or direcory_**
+**Create simple text file or direcory**
 
 - mkdir test (Direcory)
 - touch demo.txt
@@ -9,31 +9,35 @@
 
 - git mv demo.txt example.txt
 
-**\*Delete the file**
+**Delete the file**
 
 - git rm example.txt
 
-**_Check the status of the branch_**
+**Check the status of the branch**
 
 - git status (The file changes will be shown in red before added)
 
-**_Add the file to commit the changes_**
+**Add the file to commit the changes**
 
 - git add "File Name" (Without quotes, after add it will be green)
-  Note: (If you want to add the whole project files **_git add ._** )
+  Note: (If you want to add the whole project files **git add .** )
 
-**_Commit the changes_**
+**Commit the changes**
 
 - git commit -m or am "New file added" ( To stage the changes , and also add the comment in double quotes)
 
-**_Create New Branch_**
+**Create New Branch**
 
 - git checkout -b "Branch Name"
 
-**_Check the current branch_**
+**Delete the branch**
+
+- git branch -d "Branch Name"
+
+**Check the current branch**
 
 - git branch
 
-**_Merge the branch with another branch_**
+**Merge the branch with another branch**
 
 - git merge master (You should be in the current branch then run the command)
