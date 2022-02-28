@@ -19,7 +19,7 @@
 
 **_Add the file to commit the changes_**
 
-- git add "File Name" (Withoud quotes, after add it will be green)
+- git add "File Name" (Without quotes, after add it will be green)
   Note: (If you want to add the whole project files **_git add ._** )
 
 **_Commit the changes_**
