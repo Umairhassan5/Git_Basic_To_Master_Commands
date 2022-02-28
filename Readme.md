@@ -73,7 +73,7 @@ After creating new repository on git you can clone the repo with this command
 
 - `git stash pop` (If you unintentially remove the changes it will revert the stash command)
 
-**Reset the commit or go to previous commits `Soft`**
+**Reset the commit or go to previous commits `Soft && Hard`**
 
 - `git log` (To check all commits)
 - `git reset 'Commit' --soft` (This will not change the content of the file)
